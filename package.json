@@ -1,13 +1,24 @@
 {
   "name": "airtable-alfred",
   "version": "1.0.0",
-  "description": "",
+  "description": "Open any airtable base and table from Alfred",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": {
+    "name": "Marti Malinda",
+    "email": "martin@otimo.us",
+    "url": "https://martinmalinda.cz"
+  },
+  "keywords": [
+    "airtable",
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
+  ],
   "license": "ISC",
   "dependencies": {
     "alfy": "^2.1.0",
