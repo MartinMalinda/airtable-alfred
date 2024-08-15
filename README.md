@@ -53,7 +53,7 @@ This Alfred workflow enables quick interaction with Airtable, allowing you to ma
 
 ## Usage
 
-1. **Set Up API Key**: Type `tablesetup` in Alfred and follow the prompts to enter your Airtable API key.
+1. **Set Up API Key**: Type `tablesetup <key>` in Alfred and follow the prompts to enter your Airtable API key.
 2. **Sync Tables**: Type `tablesync` to synchronize your tables.
 3. **List Bases**: Type `base` to see a list of your bases.
 4. **Open a Table**: Use `_table` to search and open a table.
