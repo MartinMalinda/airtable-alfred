@@ -10,6 +10,10 @@ This Alfred workflow enables quick interaction with Airtable, allowing you to ma
 - **Go to Airtable Table**: Directly navigate to a specific Airtable table in your browser using the `table` command.
 - **Reset cache**: Empty cache of local bases and tables via `tablereset` command (useful after adding a new base).
 
+## Watch the Demo
+
+[![Watch the video](https://img.youtube.com/vi/ZEGMoZseKPM/maxresdefault.jpg)](https://youtu.be/ZEGMoZseKPM)
+
 ## Installation via Alfred file
 
 1. Get [alfred workflow file](https://github.com/MartinMalinda/airtable-alfred/releases/download/v1.0.0/alfred-airtable.alfredworkflow)
