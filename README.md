@@ -12,7 +12,7 @@ This Alfred workflow enables quick interaction with Airtable, allowing you to ma
 
 ## Watch the Demo
 
-[![Watch the video](https://img.youtube.com/vi/ZEGMoZseKPM/maxresdefault.jpg)](https://youtu.be/ZEGMoZseKPM)
+[![Watch the video](https://img.youtube.com/vi/RThK2EgLz2Y/maxresdefault.jpg)](https://youtu.be/RThK2EgLz2Y)
 
 ## Installation via Alfred file
 
