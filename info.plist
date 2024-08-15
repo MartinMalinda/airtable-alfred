@@ -61,7 +61,7 @@
 	<key>createdby</key>
 	<string>Martin Malinda</string>
 	<key>description</key>
-	<string></string>
+	<string>Open any Airtable base and table</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -359,7 +359,44 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>## Workflow Structure
+
+### Script Filters
+
+- **Set up Airtable API Key**
+  - **Keyword**: `tablesetup`
+  - **Script**: Runs `tablesetup.js` to configure your API key.
+
+- **Sync Tables**
+  - **Keyword**: `tablesync`
+  - **Script**: Runs `tablesync.js` to sync tables.
+
+- **List Bases**
+  - **Keyword**: `base`
+  - **Script**: Runs `list-bases.js` to list all your Airtable bases.
+
+- **Go to Airtable Table**
+  - **Keyword**: `table`
+  - **Script**: Runs `list-tables.js` to navigate quickly to a specific table. This shows only tables available in cache. So you might need to load these first via selecting a `base`.
+
+
+## Usage
+
+1. **Set Up API Key**: Type `tablesetup` in Alfred and follow the prompts to enter your Airtable API key.
+2. **Sync Tables**: Type `tablesync` to synchronize your tables.
+3. **List Bases**: Type `base` to see a list of your bases.
+4. **Open a Table**: Use `_table` to search and open a table.
+5. **Go to Table**: Type `table` followed by the table name to open it directly in Airtable.
+
+## Requirements
+
+- Alfred 4+
+- Node.js installed on your system
+- Airtable account and API key
+
+## Credits
+
+Created by [Martin Malinda](https://martinmalinda.cz). If you want to quickly add records right from the browser, you can check out my chrome extension [Powersave](https://powersave.pro).</string>
 	<key>uidata</key>
 	<dict>
 		<key>07273E3F-4A20-4910-B63E-3014306D3CE7</key>
@@ -414,8 +451,10 @@
 	</dict>
 	<key>userconfigurationconfig</key>
 	<array/>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
-	<string>0.1.0</string>
+	<string>1.0.0</string>
 	<key>webaddress</key>
 	<string>https://martinmalinda.cz</string>
 </dict>
